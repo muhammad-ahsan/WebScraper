@@ -24,7 +24,7 @@ public class WebScraper {
 
         org.jsoup.nodes.Document doc;
         try {
-            // Loading the page in Document
+            // Loading the page
             if (URI.isEmpty()) {
                 doc = Jsoup.connect("http://en.wikipedia.org/wiki/Algorithm").get();
             } else {
