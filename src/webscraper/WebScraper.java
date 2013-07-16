@@ -18,6 +18,7 @@ public class WebScraper {
         String s = ScrapHTML("http://en.wikipedia.org/wiki/Main_Page");
         System.out.println("The content of document ...........");
         System.out.println(s);
+        int c =10;
     }
 
     public static String ScrapHTML(String URI) throws IOException {
