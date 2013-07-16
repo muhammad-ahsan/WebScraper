@@ -11,10 +11,9 @@ import org.jsoup.select.Elements;
 public class WebScraper {
 
     /**
-     * @param args the command line arguments
+     * @param args 
      */
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
 
         String s = ScrapHTML("http://en.wikipedia.org/wiki/Main_Page");
         System.out.println("The content of document ...........");
